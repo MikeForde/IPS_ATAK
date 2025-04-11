@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:fadeScrollbars="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IPS TAK XP"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="3dp"
+                android:background="@android:color/white" />
+
+            <TextView
+                android:id="@+id/markerManipulation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get IPS Data"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="3dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/itemInspect"
+                style="@style/darkButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:padding="6dp"
+                android:background="@drawable/rounded_blue_button"
+                android:text="IPS JSON format Inspect" />
+
+            <Button
+                android:id="@+id/customType"
+                style="@style/darkButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:padding="6dp"
+                android:background="@drawable/rounded_blue_button"
+                android:text="IPS Plain format Inspect" />
+
+            <TextView
+                android:id="@+id/imageAndCamera2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Connect to WebApp"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="3dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/webView"
+                style="@style/darkButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:padding="6dp"
+                android:background="@drawable/rounded_blue_button"
+                android:text="IPS MERN" />
+
+            <Button
+                android:id="@+id/mapScreenshot"
+                style="@style/darkButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:padding="6dp"
+                android:background="@drawable/rounded_blue_button"
+                android:text="IPS Record" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
